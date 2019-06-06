@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
   <style>
     .progress{
-        background: #ffffff;
+      background: #ffffff;
     }
   </style>
 </head>
@@ -31,14 +31,6 @@
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script> <!--搜索-->
-  <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script> <!--图片缩放-->
-  
-  <script>
-  if (typeof navigator.serviceWorker !== 'undefined') {
-    navigator.serviceWorker.register('sw.js')
-  }
-</script>
-
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>
 </html>
