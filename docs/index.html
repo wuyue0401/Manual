@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="中文">
 <head>
   <meta charset="UTF-8">
   <title>超擎云使用手册</title>
@@ -14,25 +14,35 @@
   </style>
 </head>
 <body>
+
+  <!--<nav>
+    <a href="#/">语言</a>
+  </nav>-->
+
   <div id="app"></div>
   <script>
     window.$docsify = {
       name: '超擎云使用手册',
 			repo: '',
 			loadSidebar: true,
-			maxLevel: 3,
-    		subMaxLevel: 3,
+            autoHeader: true,
+            loadNavbar: false,
+			maxLevel: 4,
+    		subMaxLevel: 4,
+            auto2top: true,
+            coverpage: false,
 			search: {
 				noData: "没有结果",
 				paths: 'auto',
 				placeholder: "搜索",
-				depth: 3
+				depth: 4
 			},
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script> <!--搜索-->
-  <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script> <!--图片缩放-->
+  <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script> <!--图片缩放-->  
+  <!--<script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>分页-->  
   
   <script>
   if (typeof navigator.serviceWorker !== 'undefined') {
